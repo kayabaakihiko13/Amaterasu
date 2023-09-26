@@ -93,34 +93,34 @@ class KelilingBangunDatar:
         else:
             return 3.14 * d
     
-    class VolumeBangunRuang:
+class VolumeBangunRuang:
         
-        @staticmethod
-        def kubus(s: float) -> float:
-            return s * s * s
+    @staticmethod
+    def kubus(s: float) -> float:
+        return s * s * s
         
-        @staticmethod
-        def balok(p: float, l: float, t: float) -> float:
-            return p * l * t
+    @staticmethod
+    def balok(p: float, l: float, t: float) -> float:
+        return p * l * t
         
-        @staticmethod
-        def tabung(r: int, t: float) -> float:
-            if r%7 == 0:
-                return 22/7 * r * r * t
-            else:
-                return 3.14 * r * r * t
+    @staticmethod
+    def tabung(r: int, t: float) -> float:
+        if r%7 == 0:
+            return 22/7 * r * r * t
+        else:
+            return 3.14 * r * r * t
         
-        @staticmethod
-        def kerucut(r: int, t: float) -> float:
-            if r%7 == 0:
-                return (22/7 * r * r * t) / 3
-            else:
-                return (3.14 * r * r * t) / 3
+    @staticmethod
+    def kerucut(r: int, t: float) -> float:
+        if r%7 == 0:
+            return (22/7 * r * r * t) / 3
+        else:
+            return (3.14 * r * r * t) / 3
         
-        @staticmethod
-        def bola(r: int) -> float:
-            if r%7 == 0:
-                return (22/7 * r * r * r * 4) / 3
-            else:
-                return (3.14 * r * r * r *4) / 3
+    @staticmethod
+    def bola(r: int) -> float:
+        if r%7 == 0:
+            return (22/7 * r * r * r * 4) / 3
+        else:
+            return (3.14 * r * r * r *4) / 3
         
