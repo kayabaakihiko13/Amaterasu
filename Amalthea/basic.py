@@ -1,15 +1,53 @@
 class BasicMath:
-    
+    """
+    ## Descripstion
+    This Class About application Programing with
+    mathematic basic like addition,division,times
+    and the other
+    """
     @staticmethod
     def penambahan(a: float, b: float) -> float:
+        """
+        ## Description
+        this function function about how to calculate
+        addition in program
+        Args:
+            a (float): the first input value
+            b (float): the second input value
+
+        Returns:
+            float: result addition between a and b param
+        """
         return a + b
     
     @staticmethod
-    def pembagian(a: float, b: float) -> float:
+    def pembagian(a: float|int, b: float|int) -> float:
+        """
+        ## Description
+        this function about how to calculate
+        division in program
+        Args:
+            a (float | int): the first input value
+            b (float | int): the second input value
+
+        Returns:
+            float: result of division between a and b param
+        """
         return a / b
     
     @staticmethod
     def perkalian(a: float, b: float) -> float:
+        """
+        ## Description
+        this function about how to calculate
+        times opertaion in program
+        Args:
+            a (float): the first input value
+            b (float): the second input value
+
+        Returns:
+            float: result of division between a and b param
+        """
         return a * b
     
     @staticmethod
@@ -17,7 +55,11 @@ class BasicMath:
         return a - b
     
 class LuasBangunDatar:
-    
+    """
+    ## Description
+    this class about how to application
+    area building formula in program.
+    """
     @staticmethod
     def luasPersegi(s: float) -> float:
         return s * s
